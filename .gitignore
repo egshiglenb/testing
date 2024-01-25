@@ -11,6 +11,7 @@
 
 # bld
 bld/
+test.ipynb
 
 # latex
 *.aux
