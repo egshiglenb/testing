@@ -23,4 +23,4 @@ def task_clean_data_python(
     data_info = read_yaml(depends_on["data_info"])
     data = pd.read_csv(depends_on["data"])
     data = clean_data(data, data_info)
-    data.to_csv(produces, index=False)
+    data.to_csv(produces, index=False)  # comment
