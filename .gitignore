@@ -10,7 +10,8 @@
 .pytask
 
 # bld
-bld/
+/bld
+/paper
 
 # latex
 *.aux
